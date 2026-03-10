@@ -3,28 +3,28 @@
 
 **Institución**
 
-	Colegio Universitario de Cartago (CUC)
+- Colegio Universitario de Cartago (CUC)
 
 **Curso**
 
-	TI-151 Programación IV
+- TI-151 Programación IV
 
 **Grupo**
 
-	01
+- 01
 
 **Periodo**
 
-	I Cuatrimestre, 2026
+- I Cuatrimestre, 2026
 
-### 👥 Participantes
+**👥 Participantes**
 
-	Néstor Leiva
-	Rodrigo Elias 
+- Nestor Leiva
+- Rodrigo Elias 
 
 **Profesor(a)**
 
-	Milena Soto
+- Milena Soto
 
 
 Este proyecto es un ecosistema bancario distribuido que simula el flujo real de transacciones de un ATM, desarrollado para el curso TI-151 Programación IV (CUC). La arquitectura demuestra la interoperabilidad entre tres lenguajes y el manejo de estados críticos.
@@ -114,21 +114,15 @@ Trama Plana (Retiro/Consulta): [Tipo:1][Tarjeta:16][Monto:8][PIN:4][Cajero:4]
 
 **Objeto JSON (Cambio PIN):**
 
-		JSON
+	JSON
 
-			{
-
-				"tipo": "cambio_pin",
-
-				"numero_tarjeta": "4111...",
-
-				"pin_actual": "1515",
-
-				"pin_nuevo": "1234",
-
-				"id_cajero": 1
-
-				}
+		{
+			"tipo": "cambio_pin",
+			"numero_tarjeta": "4111...",
+			"pin_actual": "1515",
+			"pin_nuevo": "1234",
+			"id_cajero": 1
+		}
 
 2. Comunicación Python ↔ Java (Socket)
 
